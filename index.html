@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sedar Digital: Ketagihan Media Sosial, Etika dan Hakikat Diri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Literata:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#atas">shimbe gelo</a>
+  <button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav">
+    <a href="#ketagihan">Ketagihan</a><a href="#etika">Etika</a><a href="#diri">Hakikat diri</a><a href="#modul">Modul</a><a href="#semak">Semak diri</a>
+  </nav>
+</header>
+
+<main id="atas">
+<section class="hero">
+  <ul class="notifs" id="notifs" aria-label="Contoh notifikasi">
+    <li>shimbe menyukai gambar anda!</li>
+    <li>Jangan terlepas! Video shimbe baharu!</li>
+    <li>rakan anda,shimbe sedang dalam talian!</li>
+    <li>47 mesej dari shimbe belum dibaca!</li>
+  </ul>
+  <h1 id="tajuk">Siapakah anda apabila tiada sesiapa yang menonton?</h1>
+  <p class="lead" id="lead">Kajian tentang ketagihan media sosial dalam kalangan generasi muda, etika bersosial, dan cara membina kesedaran digital.</p>
+  <button class="btn" id="senyap">mute all the notifications</button>
+</section>
+
+<section id="ketagihan">
+  <h2>Bila shimbe menjadi ketagihan</h2>
+  <p>Ketagihan media sosial ialah penggunaan berlebihan yang sukar dikawal dan mula mengganggu tidur, pelajaran, hubungan dan emosi. Platform direka dengan tatal tanpa henti dan ganjaran “like” supaya kita terus kembali.</p>
+  <ul class="signs">
+    <li>Menyemak telefon tanpa sebab, walaupun tiada notifikasi.</li>
+    <li>Cemas atau rasa tertinggal (FOMO) apabila tiada capaian internet.</li>
+    <li>Tidur lewat kerana “sekejap lagi”.</li>
+    <li>Rasa kosong atau rendah diri selepas melayari media sosial.</li>
+  </ul>
+</section>
+
+<section id="etika" class="tint">
+  <h2>Analisis etika</h2>
+  <div class="cols">
+    <article><h3>Terhadap diri sendiri</h3><p>Masa dan perhatian ialah amanah. Menghabiskannya tanpa sedar ialah pembaziran (israf) dan mengabaikan tanggungjawab sebagai pelajar dan anak.</p></article>
+    <article><h3>Terhadap orang lain</h3><p>Buli siber, menyebar fitnah, berkongsi berita tanpa semak dan melanggar privasi melanggar kesopanan dan kesusilaan dalam Rukun Negara.</p></article>
+    <article><h3>Terhadap platform</h3><p>Algoritma mengejar perhatian kita. Etika juga bermakna menyedari reka bentuk yang memujuk, lalu memilih untuk mengawalnya.</p></article>
+  </div>
+</section>
+
+<section id="diri">
+  <h2>Hakikat diri dalam bersosial</h2>
+  <p>Erving Goffman menghuraikan manusia sebagai pelakon yang mempersembahkan diri di hadapan penonton. Media sosial menjadikan pentas itu terbuka sepanjang masa.</p>
+  <div class="vs">
+    <div><h3>Diri dalam talian</h3><p>Dipilih, ditapis, dan diukur dengan like serta pengikut.</p></div>
+    <div><h3>Diri yang sebenar</h3><p>Penuh kelemahan, nilai, dan akhlak yang kekal walaupun tiada penonton.</p></div>
+  </div>
+  <p class="ask">Soalan renungan: adakah saya orang yang sama di dalam dan di luar talian?</p>
+</section>
+
+<section id="modul" class="tint">
+  <h2>Modul Sedar Digital</h2>
+  <p>Empat sesi untuk murid atau belia. Pilih satu sesi.</p>
+  <div class="tabs" role="tablist" id="tabs">
+    <button role="tab" aria-selected="true" data-t="0">Sesi 1</button>
+    <button role="tab" aria-selected="false" data-t="1">Sesi 2</button>
+    <button role="tab" aria-selected="false" data-t="2">Sesi 3</button>
+    <button role="tab" aria-selected="false" data-t="3">Sesi 4</button>
+  </div>
+  <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+</section>
+
+<section id="semak">
+  <h2>Semak penggunaan anda</h2>
+  <p>Jawab dengan jujur. Jawapan anda tidak dihantar ke mana-mana.</p>
+  <form id="quiz"></form>
+  <button class="btn" id="hasil">Lihat keputusan</button>
+  <p class="result" id="result" role="status"></p>
+</section>
+</main>
+
+<footer><p>Ringkasan: sedar, bukan haram. Gunakan media sosial dengan seimbang, beretika dan sebagai diri sendiri.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
